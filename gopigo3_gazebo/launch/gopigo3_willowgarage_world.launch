@@ -26,7 +26,9 @@
                 distance:=true
                 pi_camera:=true
                 lds:=true
-                imu:=true "/>
+                imu:=true 
+                distance_visual:=false
+                laser_visual:=true"/>
 
   <!-- Spawn robot -->
   <node name="mybot_spawn" pkg="gazebo_ros" type="spawn_model" output="screen"
