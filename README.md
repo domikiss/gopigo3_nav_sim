@@ -19,18 +19,18 @@ https://github.com/domikiss/gopigo3
   Note that `gopigo3_nav_sim` may also work with the original `gopigo3` package:
 https://github.com/ros-gopigo3/gopigo3
 
-- [ROS Navigation Stack](http://wiki.ros.org/navigation) and [Gmapping](http://wiki.ros.org/gmapping). You can install them by
+- [ROS Navigation Stack](http://wiki.ros.org/navigation) and [Gmapping](http://wiki.ros.org/gmapping). Assuming that you have ROS Noetic, you can install them by
 
   ```
-  sudo apt install ros-<distro>-navigation ros-<distro>-gmapping
+  sudo apt install ros-noetic-navigation ros-noetic-gmapping
   ```
 
-  Replace `<distro>` with the name of your ROS distribution (melodic, noetic, etc.)
+  Replace `noetic` with the name of your ROS distribution (e.g. `melodic`) if needed.
 
 - [turtlebot3_gazebo](http://wiki.ros.org/turtlebot3_gazebo) package is requred for some simulated worlds:
 
   ```
-  sudo apt install ros-<distro>-turtlebot3-gazebo
+  sudo apt install ros-noetic-turtlebot3-gazebo
   ```
 
 
