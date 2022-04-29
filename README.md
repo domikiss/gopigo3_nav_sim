@@ -48,12 +48,18 @@ roslaunch gopigo3_gazebo gopigo3_willowgarage_world.launch
 ```
 roslaunch gopigo3_gazebo gopigo3_turtlebot3_world.launch
 ```
-![Gazebo simulation of GoPiGo3 in the WillowGarage world](https://domikiss.github.io/gopigo3/gopigo3_gazebo_turtlebot3_world.png)
+![Gazebo simulation of GoPiGo3 in the TurtleBot3 world](https://domikiss.github.io/gopigo3/gopigo3_gazebo_turtlebot3_world.png)
 
 ```
 roslaunch gopigo3_gazebo gopigo3_turtlebot3_house.launch
 ```
-![Gazebo simulation of GoPiGo3 in the WillowGarage world](https://domikiss.github.io/gopigo3/gopigo3_gazebo_turtlebot3_house.png)
+![Gazebo simulation of GoPiGo3 in the TurtleBot3 House world](https://domikiss.github.io/gopigo3/gopigo3_gazebo_turtlebot3_house.png)
+
+Simulating a dynamic environment with some moving dummy robots included (the [dummy_robot](https://github.com/domikiss/dummy_robot) package is required):
+```
+roslaunch gopigo3_gazebo gopigo3_smallroom_dynamic.launch
+```
+![Gazebo simulation of GoPiGo3 in the SmallRoom world with moving dummy robots](https://domikiss.github.io/gopigo3/gopigo3_smallroom_dynamic.png)
 
 
 
