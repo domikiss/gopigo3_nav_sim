@@ -2,7 +2,7 @@
   <!-- Arguments -->
   <arg name="model" default="gopigo3"/>
   <arg name="slam_methods" default="gmapping" doc="slam type [gmapping, cartographer, hector, karto, frontier_exploration]"/>
-  <arg name="open_rviz" default="true"/>
+  <arg name="open_rviz" default="false"/>
   <arg name="move_forward_only" default="false"/>
 
   <!-- Robot URDF definition -->
@@ -18,9 +18,6 @@
     <arg name="model" value="$(arg model)"/>
     <!-- arg name="configuration_basename" value="$(arg configuration_basename)"/ -->
   </include>
-
-  <!-- AMCL -->
-  <include file="$(find gopigo3_navigation)/launch/amcl.launch"/>
 
   <!-- move_base -->
   <include file="$(find gopigo3_navigation)/launch/move_base.launch">
