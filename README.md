@@ -6,9 +6,9 @@ Navigation and simulation extensions to the `gopigo3` ROS package (ROS 1).
 
 ## Prerequisites
 
-We assume that you have a Desktop-Full installation of ROS, including the Gazebo simulator and `gazebo_ros_pkgs`, the set of packages for interfacing ROS with Gazebo. If you miss any of these, please read the corresponding tutorials:
+We assume you have a Desktop-Full installation of ROS, including the Gazebo simulator and `gazebo_ros_pkgs`, the set of packages for interfacing ROS with Gazebo. If you miss any of these, please read the corresponding tutorials:
 - [ROS Installation](http://wiki.ros.org/ROS/Installation)
-- [Installing gazebo_ros_pkgs (ROS 1)](http://gazebosim.org/tutorials?tut=ros_installing&cat=connect_ros)
+- [Installing gazebo_ros_pkgs (ROS 1)](http://classic.gazebosim.org/tutorials?tut=ros_installing&cat=connect_ros)
 
 The following ROS packages are required to use `gopigo3_nav_sim`:
 
@@ -25,9 +25,9 @@ https://github.com/ros-gopigo3/gopigo3
   sudo apt install ros-noetic-navigation ros-noetic-gmapping
   ```
 
-  Replace `noetic` with the name of your ROS distribution (e.g. `melodic`) if needed.
+  Replace `noetic` with the name of your ROS distribution (e.g., `melodic`) if needed.
 
-- [turtlebot3_gazebo](http://wiki.ros.org/turtlebot3_gazebo) package is requred for some simulated worlds:
+- [turtlebot3_gazebo](http://wiki.ros.org/turtlebot3_gazebo) package is required for some simulated worlds:
 
   ```
   sudo apt install ros-noetic-turtlebot3-gazebo
@@ -37,7 +37,7 @@ https://github.com/ros-gopigo3/gopigo3
 
 ## Simulation
 
-To simulate the robot in Gazebo, use one of the following roslaunch commands. Note that Gazebo may need longer time (even more minutes) to load a world model first time. Be patient, subsequent loads will be much faster.
+To simulate the robot in Gazebo, use one of the following roslaunch commands. Note that Gazebo may need longer time (even more minutes) to load a world model for the first time. Be patient; subsequent loads will be much faster.
 
 ```
 roslaunch gopigo3_gazebo gopigo3_willowgarage_world.launch
